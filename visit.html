@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utah</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1><a href="index.html">Utah</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="slc.html">Salt Lake City</a></li>
+                <li><a href="stGeorge.html">St. George</a></li>
+                <li><a href="parkCity.html">Park City</a></li>
+                <li><a href="visit.html">Visit Us</a></li>
+            </ul>
+        </nav>
+        <div id="table">
+            <div class="visitRow">
+            <table>
+
+                <tr>
+                    <th>National Parks</th>
+                    <th>Ski Resorts</th>
+                    <th>Hiking</th>
+                </tr>
+                <tr>
+                    <td><a href="https://www.nps.gov/arch/index.htm" target="_blank">Arches</a></td>
+                    <td><a href="https://www.skithebeav.com/"  target="_blank">Beaver</a></td>
+                    <td><a href="https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm"  target="_blank">Angel's Landing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.nps.gov/brca/index.htm"  target="_blank">Bryce Canyon</a></td>
+                    <td><a href="https://www.sundanceresort.com/"  target="_blank">Sundance</a></td>
+                    <td><a href="https://www.utah.com/destinations/cities-towns/salt-lake-city/hiking/pfeifferhorn-trail/"  target="_blank">Pfiefferhorn Trail</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.nps.gov/zion/index.htm"  target="_blank">Zion</a></td>
+                    <td><a href="https://www.snowbird.com/"  target="_blank">Snowbird</a></td>
+                    <td><a href="https://www.uintahighlinetrail.com/the-trail"  target="_blank">The Highline Trail</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="visitRow">
+            <div class="image-wrapper">
+            <img id="img" src="images/stGeorge.jpg" alt="St. George Utah canyon">
+            </div>
+        </div>
+        </div>
+        <main id="form">
+
+            <form action="Post" id="contact-form">
+                <span>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" required="required">
+                </span>
+                <span>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" required="required">
+                </span>
+                <span>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required="required">
+                </span>
+                <span>
+                    <label for="emailConf">Confirm Email:</label>
+                    <input type="email" id="emailConf" required="required">
+                </span>
+                <span>
+                    <label for="textBox">Questions?</label>
+                    <textarea name="textBox" id="textBox" rows="5" cols="23"></textarea>
+                </span>
+                <p id="feedback"></p>
+                <button id ="button" type="submit">Submit</button>
+            </form>
+
+        </main>
+        <footer id="visitFooter">
+            <p>&copy; 2024 Utah</p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
