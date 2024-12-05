@@ -41,7 +41,8 @@ nav ul {
     
 }
 nav li {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: bolder;
     list-style-type: none;
     margin: 0 0.2rem;
     padding: 0.25rem 0.5rem;
