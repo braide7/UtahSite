@@ -174,10 +174,12 @@ form button{
 }    
 
 .visitRow{
+    display: flex;
+    flex-direction: row;
     padding: 1rem 0;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
-    justify-items: center;
+    justify-content: center;
    
 }
 .image-wrapper{
